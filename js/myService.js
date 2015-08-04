@@ -1,6 +1,6 @@
 var app = angular.module('chatroom');
 
-app.service('parseService', function($http, $q){
+app.service('myService', function($http, $q){
   
   console.log('hello from service');
    
