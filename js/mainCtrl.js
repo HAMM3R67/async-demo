@@ -7,7 +7,7 @@ app.controller('mainCtrl', function($scope, myService){
   $scope.shuffle = function() {
     myService.getData().then(function(results){
       console.log (results)
-      $scope.cards = results.data.cards;
+      $scope.cards = results.data;
     });
   }
   
